@@ -1,0 +1,22 @@
+.form-control{
+    background-color: rgb(119, 118, 118);
+    border: none;
+    color: white;
+}
+
+.form-control:focus{
+    background-color: rgb(119, 118, 118);
+    border: none;
+    box-shadow: none;
+    color: white;
+}
+
+.chat {
+    overflow-y: scroll;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+.chat::-webkit-scrollbar { /* WebKit */
+    width: 0;
+    height: 0;
+}
